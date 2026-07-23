@@ -1,7 +1,42 @@
+# Python
 *.pyc
 __pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
 .env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
 temp_*
 *.log
 *.db
 *.sqlite3
+*.pid
+*.db-shm
+*.db-wal
+
+# Railway
+railway-deploy.json
+*.lock
+*.egg-info/
+dist/
+build/
