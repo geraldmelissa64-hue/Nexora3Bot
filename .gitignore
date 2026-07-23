@@ -31,12 +31,3 @@ temp_*
 *.db
 *.sqlite3
 *.pid
-*.db-shm
-*.db-wal
-
-# Railway
-railway-deploy.json
-*.lock
-*.egg-info/
-dist/
-build/
