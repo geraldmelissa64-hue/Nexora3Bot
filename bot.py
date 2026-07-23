@@ -21,7 +21,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when /start is issued."""
     await update.message.reply_text(
         f"Hi {update.effective_user.first_name}! 🎉\n\n"
-        "I'm Nexora3Bot! Send me any message and I'll help you out.\n\n"
+        "I'm Nexora3Bot! I'm alive and running on Railway!\n\n"
         "Commands:\n"
         "/start - Welcome message\n"
         "/help - Show help\n"
